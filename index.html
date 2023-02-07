@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Channel</title>
+    
+  
+    <link rel="stylesheet" href="./styles.css">
+ 
+
+</head>
+<body>
+    <div class="encabezado">
+        <h1>Weather Channel</h1>
+        <input class="ingreso" type="text" placeholder="Ingresá una ciudad">
+        <button class="enviar">ENVIAR</button>
+    </div>
+    <div class="container">
+        <ul class="ciudades">
+            <li>
+                <span id="ciudad"></span><br>
+                <span id="temperatura"></span><span id="grados"></span><br>
+                <img id="wicon"  alt="Ícono del tiempo"><br>
+                <span id="descripcion"></span><br>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./scripts.js"></script>
+
+</body>
+</html>
