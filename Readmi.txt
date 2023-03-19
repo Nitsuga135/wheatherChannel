@@ -1,0 +1,7 @@
+Final Plataforma 5,
+Este ejercicio fue hecho siguiendo los pasos para 
+el final del curso. Dicha aplicación tiene la funcionalidad de 
+ingresar una ciudad, provincia o pais y la misma se encargara
+de revisar una api del clima y mostrar los datos de la misma.
+Esta aplicación no cuenta con movile first debido a que en
+dicha ejercitación no era requerida.

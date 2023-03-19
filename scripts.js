@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', () => {
+	window.addEventListener('load', () => {
+
 let ciudad;
 let boton = document.querySelector(".enviar")
 let ingreso = document.querySelector(".ingreso")
@@ -41,3 +44,6 @@ function cargarCiudad(){
 }
 
 cargarCiudad()
+
+})
+})
